@@ -1,5 +1,8 @@
 # impulse-game
-Impulse is a game to check your reaction time by clicking on the appearing shapes on the screen. It is an effort to understand and implement protobuf, grpc &amp; rest framework gin using golang.
+Impulse is a game  written in golang to check your reaction time by clicking on the appearing shapes on the screen. It is an effort to understand and implement 
+1. protobuf
+2. grpc
+3. rest framework gin
 
 # Game Components
 The game consists of 5 major services:
