@@ -4,10 +4,10 @@ Impulse is a game to check your reaction time by clicking on the appearing shape
 # Game Components
 The game consists of 5 major services:
 1. **[game-apis](https://github.com/dhruvbehl/game-apis)**: This is the model that the game gRPC server & clients use to interact with other services. This contains a protobuf resources which are compiled to autogenerate game-api code using the prooc tool.
-2. **[game-highscore](https://github.com/dhruvbehl/game-highscore): This is a gRPC service that maintains the highscore of a game session and also provides getter and setter funcionalities for the same
-3. **[game-engine]**(https://github.com/dhruvbehl/game-engine): This is a gRPC server that is the logic backbone of the game, here the base logic of deciding the difficulty of the game based on the user's performace is decided
-4. **[game-mgmtplane]**(https://github.com/dhruvbehl/game-mgmtplane): This is a proxy service that converts rest call made by the frontend to gRPC and routes it to the appropriate gRPC service.
-5. **[game-fontend]**(https://github.com/dhruvbehl/game-frontend): This contains a basic HTML, CSS, JS resource to provide a frontend to the game.
+2. **[game-highscore](https://github.com/dhruvbehl/game-highscore)**: This is a gRPC service that maintains the highscore of a game session and also provides getter and setter funcionalities for the same
+3. **[game-engine](https://github.com/dhruvbehl/game-engine)**: This is a gRPC server that is the logic backbone of the game, here the base logic of deciding the difficulty of the game based on the user's performace is decided
+4. **[game-mgmtplane](https://github.com/dhruvbehl/game-mgmtplane)**: This is a proxy service that converts rest call made by the frontend to gRPC and routes it to the appropriate gRPC service.
+5. **[game-fontend](https://github.com/dhruvbehl/game-frontend)**: This contains a basic HTML, CSS, JS resource to provide a frontend to the game.
 
 ## Game architecture
 
